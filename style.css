@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Serif', serif;
+}
+
+body{
+    background-color: black;
+}
+
+.info{
+    padding: 20px;
+}
+
+.info p{
+    margin-top: 10px;
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    max-width: 670px;
+    margin-inline: auto;
+    border-radius: 5px;
+}
+
+main img{
+    width: 80%;  
+}
+
+div{
+    padding: 6px; 
+}
+
+div.button{
+    padding: 20px;
+}
+
+.button input{
+    background-color: rgb(255, 0, 43);
+    font-size: 15px;
+    padding: 6px;
+    border: solid black;
+    border-radius: 8px;
+}
+
+#txtmsg{
+    text-align: center; 
+    padding: 20px;    
+}

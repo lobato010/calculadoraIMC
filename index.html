@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Índice de Massa Corporal - IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="info">
+            <h1>Você sabe o que é o Índice de Massa Corporal (IMC)?</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor inventore sint? Atque veritatis, recusandae quod quam nemo natus corporis expedita deserunt molestias aliquam in animi quidem repellat impedit accusantium.</p>
+        </div>
+
+        <p>Use a tabela abaixo como referência!</p>
+        
+        <div class="tabela"><img src="https://viverbem.unimedbh.com.br/wp-content/uploads/2021/06/tabela-IMC.png" alt="tabela de classificação de índice de massa corporal">
+        </div>
+
+        <div class="info"><p>Calcule seu IMC abaixo:</p></div>
+
+        <div>
+            <p>Peso em Kg: <input type="number" name="peso" id="txtpeso" placeholder="Ex: 60,2"></p>
+        </div>
+        
+        <div>
+            <p>Altura em M: <input type="number" name="altura" id="txtalt" placeholder="Ex: 1,70"></p>
+        </div>
+
+        <div class="button"><input type="button" onclick="calcular()" value="Calcular"></div>
+
+        <div id="res"></div>
+
+        <div id="txtmsg"></div>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
