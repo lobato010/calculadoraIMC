@@ -46,6 +46,12 @@ div.button{
     border-radius: 8px;
 }
 
+.button input:hover{
+    background-color: rgb(243, 85, 85);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
 #txtmsg{
     text-align: center; 
     padding: 20px;    
